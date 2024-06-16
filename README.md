@@ -22,7 +22,7 @@ To begin your Interviewing-System  experience, follow these simple steps:
 
 ## Contact
 
-- GitHub: [jSatyam](https://github.com/satyam-ai)
+- GitHub: [Satyam](https://github.com/satyam-ai)
 
 <!-- ## Acknowledgments
 

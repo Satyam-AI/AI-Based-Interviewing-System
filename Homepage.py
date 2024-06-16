@@ -5,15 +5,15 @@ import streamlit as st
 from PIL import Image
 
 im = Image.open("icon.png")
-st.set_page_config(page_title = "AI Interviewer", layout = "centered",page_icon=im)
+st.set_page_config(page_title = "Interviewing-System", layout = "centered",page_icon=im)
 
 lan = st.selectbox("#### Language", ["English"])
 
 if lan == "English":
-    home_title = "AI Interviewer"
-    home_introduction = "Welcome to AI Interviewer, empowering your interview preparation with generative AI."
+    home_title = "Interviewing-System"
+    home_introduction = "Welcome to Interviewing-System, empowering your interview preparation with generative AI."
     with st.sidebar:
-        st.markdown('AI Interviewer  -  Final Year Project ')
+        st.markdown('Interviewing-System  -  Final Year Project ')
         st.markdown("""
         #### Let's contact:
         [Satyam Kumar](https://www.linkedin.com/in/satyam-kumar-b40b04168/)
@@ -36,8 +36,8 @@ if lan == "English":
     st.markdown(f"""# {home_title} <span style=color:#2E9BF5><font size=5>Beta</font></span>""",unsafe_allow_html=True)
     st.markdown("""\n""")
     #st.markdown("#### Greetings")
-    st.markdown("Welcome to AI Interviewer! 👏 AI Interviewer is your personal interviewer powered by generative AI that conducts mock interviews."
-                "You can upload your resume and enter job descriptions, and AI Interviewer will ask you customized questions. Additionally, you can configure your own Interviewer!")
+    st.markdown("Welcome to Interviewing-System! 👏 AI Interviewer is your personal interviewer powered by generative AI that conducts mock interviews."
+                "You can upload your resume and enter job descriptions, and Interviewing-System will ask you customized questions. Additionally, you can configure your own Interviewer!")
     st.markdown("""\n""")
     with st.expander("Updates"):
         st.write("""
@@ -58,7 +58,7 @@ if lan == "English":
         )
     if selected == 'Professional':
         st.info("""
-            📚In this session, the AI Interviewer will assess your technical skills as they relate to the job description.
+            📚In this session, the Interviewing-System will assess your technical skills as they relate to the job description.
             Note: The maximum length of your answer is 4097 tokens!
             - Each Interview will take 10 to 15 mins.
             - To start a new session, just refresh the page.
@@ -68,7 +68,7 @@ if lan == "English":
             switch_page("Professional Screen")
     if selected == 'Resume':
         st.info("""
-        📚In this session, the AI Interviewer will review your resume and discuss your past experiences.
+        📚In this session, the Interviewing-System will review your resume and discuss your past experiences.
         Note: The maximum length of your answer is 4097 tokens!
         - Each Interview will take 10 to 15 mins.
         - To start a new session, just refresh the page.
@@ -79,7 +79,7 @@ if lan == "English":
             switch_page("Resume Screen")
     if selected == 'Behavioral':
         st.info("""
-        📚In this session, the AI Interviewer will assess your soft skills as they relate to the job description.
+        📚In this session, the Interviewing-System will assess your soft skills as they relate to the job description.
         Note: The maximum length of your answer is 4097 tokens!
         - Each Interview will take 10 to 15 mins.
         - To start a new session, just refresh the page.
@@ -90,9 +90,9 @@ if lan == "English":
             switch_page("Behavioral Screen")
     if selected == 'Customize!':
         st.info("""
-            📚In this session, you can customize your own AI Interviewer and practice with it!
-             - Configure AI Interviewer in different specialties.
-             - Configure AI Interviewer in different personalities.
+            📚In this session, you can customize your own Interviewing-System and practice with it!
+             - Configure Interviewing-System in different specialties.
+             - Configure Interviewing-System in different personalities.
              - Different tones of voice.
 
              Coming at the end of July""")

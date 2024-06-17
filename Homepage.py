@@ -19,7 +19,7 @@ if lan == "English":
         [Satyam Kumar](https://www.linkedin.com/in/satyam-kumar-b40b04168/)
 
 
-        #### Powered by
+        #### Powered by:
 
         [OpenAI](https://openai.com/)
 
